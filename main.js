@@ -27,8 +27,12 @@ $(document).ready(function() {
         p.addClass("lead");
         p.attr("style","text-align:center;")
         p.html(nameSpaces[i])
-        // p.html("This is a test and can be modified");
+       
+        let itemTitle = $("<h5>");
+        itemTitle.html("Item: " + i + " - This is an example of J-Script" );
 
+
+        divs.append(itemTitle);
 
         divs.append(img);
 
