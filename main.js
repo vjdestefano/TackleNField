@@ -11,9 +11,7 @@ $(document).ready(function() {
        "Something Something Guns","im running out of ideas","LUL",
        "item - 25", "should this be here?", "item - 24", "this is item - 1", "test123", "hmm maybe i should get some lunch", "item - ID",
        "is this enough?", "this might be right","hahahah", "fishing with the boys", "would you like some lunch?","I've lost the will"
-    
-    
-    ]
+    ];
   
     for (let i = 0; i < 25; i++) {
    
@@ -27,6 +25,7 @@ $(document).ready(function() {
 
         let p = $("<p>");
         p.addClass("lead");
+        p.attr("style","text-align:center;")
         p.html(nameSpaces[i])
         // p.html("This is a test and can be modified");
 
