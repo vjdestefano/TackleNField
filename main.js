@@ -14,7 +14,14 @@ for (let i = 0; i < 25; i++) {
     img.addClass("responsive");
     img.attr("src",url);
 
+    let p = $("<p>");
+    p.addClass("lead");
+    p.text("This is a test and can be modified");
+
+
     divs.append(img);
+
+    divs.append(p);
 
     $("#selling-items").append(divs);
 
