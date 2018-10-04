@@ -62,9 +62,32 @@
 
 .responsive-lrg {
     width: 100%;
-    max-height: 50%;
-    height: auto;
+    max-height: 600px;
+    height: 75%;
 }
+
+.responsive-bg-1 {
+    width: 100%;
+    max-height: 600px;
+    height: 500px;
+    background-size: 100% 100%;
+    background-image: url("./img/brown-close-up-hd-wallpaper-172289.jpg")
+    
+}
+
+.responsive-bg-2 {
+    width: 100%;
+    max-height: 600px;
+    height: 500px;
+    background-size: 100% 100%;
+    background-image: url("./img/beach-blue-bouy-190294.jpg")
+  
+    
+}
+
+
+
+
 
 a.nav-link{
     padding:0;
