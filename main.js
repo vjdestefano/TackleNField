@@ -16,7 +16,7 @@ for (let i = 0; i < 25; i++) {
 
     let p = $("<p>");
     p.addClass("lead");
-    p.text("This is a test and can be modified");
+    p.html("This is a test and can be modified");
 
 
     divs.append(img);
