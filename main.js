@@ -1,4 +1,7 @@
 // Vinny Destefano
+//Making a simple filler content area
+//simply sorts through an array and prints out what is in that position
+
 
 $(document).ready(function() {
     
@@ -15,6 +18,10 @@ $(document).ready(function() {
   
     for (let i = 0; i < 25; i++) {
    
+
+        let randomNumber = Math.floor(Math.random() * 10000);
+
+
         let divs = $("<div>");
         divs.addClass("col-4");
         divs.attr("style","padding-left:5%; padding-bottom:2%;");
@@ -29,7 +36,7 @@ $(document).ready(function() {
         p.html(nameSpaces[i])
        
         let itemTitle = $("<h5>");
-        itemTitle.html("Item: " + i + " - This is an example of J-Script" );
+        itemTitle.html("Item ID: " + randomNumber);
 
 
         divs.append(itemTitle);
@@ -41,6 +48,8 @@ $(document).ready(function() {
         $("#selling-items").append(divs);
 
         }
+        // end the loop for the appending items the ID area
+
 
  
 });
